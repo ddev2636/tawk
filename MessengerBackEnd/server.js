@@ -25,7 +25,7 @@ const isProduction = process.env.NODE_ENV === "production";
 
 // Set the allowed origin based on the environment
 const allowedOrigin = isProduction
-  ? "https://chat-app-frontend-seven-jet.vercel.app"
+  ? "https://tawk-kappa.vercel.app"
   : "http://localhost:3000";
 
 const io = new Server(server, {

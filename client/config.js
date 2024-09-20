@@ -8,7 +8,7 @@ const isProduction = process.env.NODE_ENV === "production";
 
 // Set the BASE_URL based on the environment
 export const BASE_URL = isProduction
-  ? "https://chat-app-backend-f9jz.onrender.com"
+  ? "https://tawk-uudo.onrender.com"
   : "http://localhost:4000";
 
 export const defaultSettings = {
